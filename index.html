@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Grocery List</h1>
+    <div id="groceryList">
+        <!-- Grocery items will be dynamically added here -->
+    </div>
+    <div id="totals">
+        <p>Total Cost: <span id="totalCost">0</span></p>
+        <p>Total Quantity: <span id="totalQuantity">0</span></p>
+    </div>
+    <button onclick="addItemPrompt()">Add New Item</button>
+    <button onclick="isolateCategory('Fruits')">Show Fruits</button>
+    <button onclick="isolateCategory('Vegetables')">Show Vegetables</button>
+    <button onclick="isolateCategory('Dairy')">Show Dairy</button>
+    <button onclick="showAllCategories()">Show All</button>
+    <button onclick="orderItemsByCost()">Order by Cost</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
