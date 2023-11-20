@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#groceryList {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+#groceryList div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+#totals {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
